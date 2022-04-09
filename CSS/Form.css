@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	background: url("../Images/East/cold-daylight-glacier-gurudongmar-lake.jpg");
+	background-size: cover;
+	font-family: sans-serif;
+}
+.LoginBox{
+	width: 420px;
+	height: 620px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+}
+.LoginBox img{
+	width: 400px;
+	height: 50px;
+	padding-top: 20px;
+}
+.LoginBox p{
+	margin-left: 10px;
+	font-weight: bold;
+}
+.LoginBox input[type="text"], input[type="email"]{
+	width: 85%;
+	margin-left: 10px;
+	opacity: 90%;
+}
+.LoginBox input[type="submit"]{
+	width: 65%;
+	background-color: #07C51D;
+	margin-left: 70px;
+	font-weight: bold;
+	height: 30px;
+}
+.LoginBox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #808080;
+}
+.LoginBox select{
+	width: 50%;
+	margin-left: 10px;
+	opacity: 90%;
+}
+.LoginBox textarea{
+	margin-left: 10px;
+	opacity: 90%;
+}

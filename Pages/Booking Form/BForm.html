@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Booking Form</title>
+<link href="../../../Final Year Project/CSS/Form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="LoginBox">
+	  <img src="../../Images/LOGO/Booking.png" class="logo" alt="">
+	  <form action="BConnect.php" method="post">
+	     <p>Name:</p>
+		  <input type="text" name="name" placeholder="Enter Your Name" required>
+		 <p>Email:</p>
+		  <input type="email" name="email" placeholder="Enter Your Email ID" required>
+		 <p>Contact Number:</p>
+		  <input type="text" name="contact" placeholder="Enter Your Mobile Number" required>
+		 <p>Number of Tourist:</p>
+		  <input type="text" name="number" placeholder="Enter number for people accompanying" required>
+		 <p>Package:</p>
+		  <select name="pack">
+		    <option value="north">Northan India</option>
+			<option value="south">Southern India</option>
+			<option value="east">Eastern India</option>
+			<option value="west">Western India</option>
+		  </select><br><br><br>
+		 <input type="submit" value="submit">
+ 	  </form>	
+	</div>
+</body>
+</html>

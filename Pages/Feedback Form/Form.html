@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Feedback Form</title>
+<link href="../../../Final Year Project/CSS/Form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="LoginBox">
+	  <img src="../../Images/LOGO/f.png" class="logo" alt="">
+	  <form action="connect.php" method="post">
+	     <p>Name:</p>
+		  <input type="text" name="name" placeholder="Enter Your Name" required>
+		 <p>Email:</p>
+		  <input type="email" name="email" placeholder="Enter Your Email ID" required>
+		 <p>State:</p>
+		  <input type="text" name="state" placeholder="Enter Name of Your State" required>
+		 <p>City:</p>
+		  <input type="text" name="city" placeholder="Enter Name of Your City" required>
+		 <p>Website Experience:</p>
+		  <select name="exp">
+		    <option value="amazaing">Amazing</option>
+			<option value="good">Good</option>
+			<option value="average">Average</option>
+			<option value="poor">Poor</option>
+		  </select>
+		 <p>Location Suggestions:</p>
+		  <textarea name="suggest" placeholder="Suggest some locations which you think we shoud include" cols="50" rows="4"></textarea><br><br>
+		 <input type="submit" value="submit">
+ 	  </form>	
+	</div>
+</body>
+</html>
